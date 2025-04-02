@@ -1,19 +1,14 @@
-# Environment variables
+# Project-specific
 .env
+.env.local
+/ai/
 
-# Virtual Environment
+# Python Virtual Environment
 venv/
 env/
 .venv/
 ENV/
-ai-env/
-ai_env/
-aienv/
-.ai-env/
-.ai_env/
-.aienv/
-
-# Python cache files
+*env/
 __pycache__/
 *.py[cod]
 *$py.class
@@ -29,3 +24,17 @@ build/
 .vscode/
 *.swp
 *.swo
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
