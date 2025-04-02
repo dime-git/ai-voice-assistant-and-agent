@@ -1,0 +1,31 @@
+# Environment variables
+.env
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+ai-env/
+ai_env/
+aienv/
+.ai-env/
+.ai_env/
+.aienv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
